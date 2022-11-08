@@ -1,6 +1,6 @@
 # Vue
 
----
+
 
 ## State Management
 
@@ -38,7 +38,7 @@
   
   - Vue의 반응성을 효율적으로 사용하는 상태 관리 기능 제공
 
----
+
 
 ## Vuex 시작하기
 
@@ -63,8 +63,6 @@
    - state의 데이터가 변화하면 해당 데이터 사용하는 component도 자동으로 렌더링
    
    - \$<mark>store.state</mark> 로 state 데이터에 접근 
-
-
 
 2. Mutations
    
@@ -106,8 +104,6 @@
        
        - B : 넘겨주는 데이터(payload)
 
-
-
 4. Getters
    
    - vue 인스턴스의 computed에 해당
@@ -120,15 +116,13 @@
    
    - <mark>첫 번째 인자로 state, 두 번째 인자로 getter</mark>
 
-
-
 #### Q) 모든 데이터를 Vuex에서 관리해야 할까?
 
 ###### A) 아니다! 개발 환경에 따라 적절하게 사용해야 한다!
 
 ###### Vuex에서도 여전히 pass props, emit event 사용하여 상태 관리 가능
 
----
+
 
 ## 정리
 
